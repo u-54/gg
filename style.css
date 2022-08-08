@@ -119,6 +119,7 @@
 
 .Fr {
   opacity: 0;
+  position: absolute;
 }
 
 .Frr {
