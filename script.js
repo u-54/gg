@@ -5,7 +5,10 @@
 // } else {
 //     document.getElementsByClassName('g')[0].style.backgroundColor = 'green'
 // }
-const f = (text) => {
-    alert(text)
+const fr = document.getElementsByClassName('Fr')[0]
+const button = document.getElementById('123ad')
+
+const f = () => {
+    fr.play()
 }
-f('aboba')
+button.addEventListener('click', f )
